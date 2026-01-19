@@ -16,3 +16,4 @@ git config --global user.email "you@example.com"
     git push
 
 For advance user:
+    git branch -M main
