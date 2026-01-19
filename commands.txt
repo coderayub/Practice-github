@@ -1,7 +1,18 @@
+For the first time for every new repository created:
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/coderayub/Practice-github.git
+    git push -u origin main
 
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/coderayub/Practice-github.git
-git push -u origin main
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+  for every other time:
+    git add .
+    git commit -m "update message"
+    git push
+
+For advance user:
